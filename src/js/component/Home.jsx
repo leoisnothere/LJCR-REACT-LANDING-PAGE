@@ -1,12 +1,10 @@
 import React from "react";
-import {Navbar} from "./navbar.jsx"
-import {Jumbotron} from "./jumbotron.jsx"
-import {Cards} from "./cards.jsx"  
-import  "/workspaces/William1st-Reactlandingpage/src/styles/index.css"
+import {Navbar} from "./Navbar.jsx"
+import {Jumbotron} from "./Jumbotron.jsx"
+import {Cards} from "./Cards.jsx"  
 import Footer from "./Footer.jsx";
 import "../../styles/index.css"
 //include images into your bundle
-import rigoImage from "../../img/rigo-baby.jpg";
 
 //create your first component
 const Home = () => {
